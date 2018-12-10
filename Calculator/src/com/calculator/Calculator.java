@@ -10,6 +10,7 @@ public class Calculator {
 		System.out.println(sum());
 		System.out.println(sub());
 		System.out.println(multiply());
+		System.out.println(div());
 	}
 	
 	public static int multiply(){
@@ -22,6 +23,10 @@ public class Calculator {
 	
 	public static int sub(){
 		return 10-3;
+	}
+	
+	public static int div(){
+		return 112/2;
 	}
 
 }
